@@ -1,8 +1,0 @@
-version: 1.0.0
-files:
-  - url: electron-quick-start-setup-1.0.0.exe
-    sha512: sBNme5ShMxVOwcjvRNMIBRwDKUVkgf1LjPBR4KR+Sd0yJWS//+ga2tUC3mryO3F8X36rIERz/ORpBVJcfjMrgQ==
-    size: 43126759
-path: electron-quick-start-setup-1.0.0.exe
-sha512: sBNme5ShMxVOwcjvRNMIBRwDKUVkgf1LjPBR4KR+Sd0yJWS//+ga2tUC3mryO3F8X36rIERz/ORpBVJcfjMrgQ==
-releaseDate: '2019-04-15T00:36:32.786Z'
