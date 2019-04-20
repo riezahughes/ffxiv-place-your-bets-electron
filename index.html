@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+      body{
+        overflow: hidden;
+      }
+      ::-webkit-scrollbar { display: none; }
+      .moveButton{
+        position: absolute;
+        top: 33px;
+        right: 8px;
+        width: 24px;
+        height: 21px;
+        background-color: #111;
+        color: white;
+        text-align: center;
+        -webkit-app-region: drag;
+        padding-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="moveButton">
+      <i class="fas fa-expand-arrows-alt"></i>
+    </div>
+    <webview id="foo" src="http://mythwuld.com:3000/" style="display:inline-flex; width:500px; height:73px; overflow: hidden;"></webview>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
